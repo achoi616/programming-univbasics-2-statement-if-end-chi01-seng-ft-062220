@@ -1,7 +1,7 @@
 #If even > output = "Even!"
 #If odd > output = "Odd!"
 
-current_time = [Time.now]
+current_time = Time.now
 
 if current_time.even?
   puts "Even!"
