@@ -3,8 +3,8 @@
 
 current_time = Time.now
 
-if current_time.even?
+if Time.now.even?
   puts "Even!"
-elsif current_time.odd?
+elsif Time.now.odd?
   puts "Odd!"
 end
