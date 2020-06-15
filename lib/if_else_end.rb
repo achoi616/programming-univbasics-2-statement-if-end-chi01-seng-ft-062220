@@ -2,9 +2,10 @@
 #If odd > output = "Odd!"
 
 current_time = Time.now
+current_time = current_time.to_i
 
-if Time.now.even?
+if current_time % 2 == 0
   puts "Even!"
-elsif Time.now.odd?
+else
   puts "Odd!"
 end
