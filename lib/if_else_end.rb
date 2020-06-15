@@ -8,4 +8,3 @@ if current_time = even?
 elsif current_time = odd?
   puts "Odd!"
 end
-
